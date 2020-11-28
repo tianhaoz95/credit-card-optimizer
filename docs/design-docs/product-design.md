@@ -19,8 +19,8 @@ This project aims to help user manage credit cards and optimize reward with algo
 ```mermaid
 graph TD
     CLIENTS[Clients: mobile app, web app, and CLI, etc] -- REST API --- SERVER[Server: core logic]
-    CLIENTS -- Protobuf code generation --- COMMON_CONCETPS
-    SERVER -- Protobuf code generation --- COMMON_CONCETPS
+    CLIENTS -- Protobuf code generation --- COMMON_CONCEPTS
+    SERVER -- Protobuf code generation --- COMMON_CONCEPTS
     SERVER --> DEPLOY_VENDOR[Deploy vendor: Vercel]
     SERVER --> SERVICE_PROVIDER[Service provider vendor: Firebase]
 ```
